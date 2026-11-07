@@ -15,6 +15,12 @@ public class RecruitmentController {
     @Autowired
     private RecruitmentService service;
 
+    @GetMapping("/")
+    public String test()
+    {
+        return "SOA Candidate REST API";
+    }
+
     @PostMapping("/add")
     public Recruitment addRecruitment(@RequestBody Recruitment recruitment) {
         return service.addRecruitment(recruitment);
