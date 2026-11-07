@@ -1,0 +1,78 @@
+spring.application.name=Recruitment
+
+server.port=8082
+
+spring.datasource.url=jdbc:mysql://localhost:3306/soataskdb
+spring.datasource.username=root
+spring.datasource.password=1234
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+springdoc.api-docs.path=/api-docs
+springdoc.swagger-ui.path=/swagger-ui.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### PostgreSQL Configuration ####
+### spring.datasource.driver-class-name=org.postgresql.Driver
+### spring.datasource.url=jdbc:postgresql://localhost:5432/skill-exam-2400032943
+### spring.datasource.username=postgres
+### spring.datasource.password=Harshithkumar@10
+
+#hibernate properties
+
+# JPA Configuration
+### spring.jpa.hibernate.ddl-auto=update
+### spring.jpa.show-sql=true
+###spring.jpa.properties.hibernate.format_sql=true
+###spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
