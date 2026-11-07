@@ -30,6 +30,9 @@ services:
     container_name: exam-service
     ports:
       - "9001:8001"
+    environment:
+      - DB_HOST=postgresdb
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresdb:5432/soa-skill-exam-2400032789
     depends_on:
       postgresdb:
         condition: service_healthy
